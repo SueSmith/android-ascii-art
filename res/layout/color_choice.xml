@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/colors_0"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="#00000000"
+            android:contentDescription="@string/colors0"
+            android:onClick="setColors"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/colors0"
+            android:tag="#000000 #ffffff" />
+
+        <ImageButton
+            android:id="@+id/colors_1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="#00000000"
+            android:contentDescription="@string/colors1"
+            android:onClick="setColors"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/colors1"
+            android:tag="#ffffff #000000" />
+
+        <ImageButton
+            android:id="@+id/colors_2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="#00000000"
+            android:contentDescription="@string/colors2"
+            android:onClick="setColors"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/colors2"
+            android:tag="#ffcc00 #000099" />
+    </LinearLayout>
+
+</ScrollView>

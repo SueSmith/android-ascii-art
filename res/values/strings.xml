@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">ASCII Art Editor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ASCII Editor</string>
+    <string name="intro">Enter your ASCII art below!</string>
+    <string name="save">Save</string>
+    <string name="export">Export</string>
+    <string name="set_colors">Settings</string>
+    <string name="load">Load</string>
+    <string name="new_pic">New</string>
+    <string name="delete">Delete</string>
+    <string name="color">Choose a color scheme:</string>
+    <string name="colors0">Black on White</string>
+    <string name="colors1">White on Black</string>
+    <string name="colors2">Yellow on Blue</string>
+    <string name="load_pics">Choose from these saved pictures:</string>
+
+</resources>
